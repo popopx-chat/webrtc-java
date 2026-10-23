@@ -4,14 +4,14 @@
 	shallow = true
 [submodule "webrtc-jni/src/main/rust/third_party/ringrtc"]
 	path = webrtc-jni/src/main/rust/third_party/ringrtc
-	url = https://github.com/shumvgolove/ringrtc
+	url = https://github.com/simplex-chat/ringrtc
 	branch = simplex
 [submodule "webrtc-jni/src/main/rust/third_party/cubeb-rs"]
 	path = webrtc-jni/src/main/rust/third_party/cubeb-rs
-	url = https://github.com/shumvgolove/cubeb-rs
+	url = https://github.com/simplex-chat/cubeb-rs
 	branch = simplex
 [submodule "webrtc-jni/src/main/cpp/dependencies/signal-webrtc"]
 	path = webrtc-jni/src/main/cpp/dependencies/signal-webrtc
-	url = https://github.com/shumvgolove/signal-webrtc.git
+	url = https://github.com/simplex-chat/webrtc-signal.git
 	shallow = true
 	branch = simplex

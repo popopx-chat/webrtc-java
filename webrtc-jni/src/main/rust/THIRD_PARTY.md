@@ -5,10 +5,10 @@ of a fork. Clone with `git submodule update --init --recursive`.
 
 | Submodule | Fork branch | Base | Offered upstream |
 |---|---|---|---|
-| `third_party/ringrtc` | shumvgolove/ringrtc `simplex` | signalapp/ringrtc `v2.73.0` | `fix/regex-aot-unicode`, `fix/adm-device-cache-before-start`, `fix/adm-names-before-notify`, `feat/adm-follow-system-default`, `fix/adm-playout-delay-nonblocking`, `fix/adm-redaction-whitespace`, `fix/adm-spawn-failure-cleanup`, `fix/adm-callbacks-shared-ref` |
-| `third_party/cubeb-rs` | shumvgolove/cubeb-rs `simplex` | mozilla/cubeb-rs `cubeb-v0.38.0` | `fix/device-info-invalid-utf8` |
-| ↳ `cubeb-sys/libcubeb` | shumvgolove/cubeb `simplex` | mozilla/cubeb `bce39b6` (bundled in cubeb-sys 0.38.0) | |
-| ↳ `src/cubeb-pulse-rs` | shumvgolove/cubeb-pulse-rs `simplex` | mozilla/cubeb-pulse-rs `e5e0b0b` | `fix/collection-changed-teardown-race`, `fix/collection-changed-callback-lock` |
+| `third_party/ringrtc` | simplex-chat/ringrtc `simplex` | signalapp/ringrtc `v2.73.0` | `fix/regex-aot-unicode`, `fix/adm-device-cache-before-start`, `fix/adm-names-before-notify`, `feat/adm-follow-system-default`, `fix/adm-playout-delay-nonblocking`, `fix/adm-redaction-whitespace`, `fix/adm-spawn-failure-cleanup`, `fix/adm-callbacks-shared-ref` |
+| `third_party/cubeb-rs` | simplex-chat/cubeb-rs `simplex` | mozilla/cubeb-rs `cubeb-v0.38.0` | `fix/device-info-invalid-utf8` |
+| ↳ `cubeb-sys/libcubeb` | simplex-chat/cubeb `simplex` | mozilla/cubeb `bce39b6` (bundled in cubeb-sys 0.38.0) | |
+| ↳ `src/cubeb-pulse-rs` | simplex-chat/cubeb-pulse-rs `simplex` | mozilla/cubeb-pulse-rs `e5e0b0b` | `fix/collection-changed-teardown-race`, `fix/collection-changed-callback-lock` |
 
 Each `simplex` branch holds the commits listed by `git log <base>..simplex` in its submodule: the
 upstream branches above, SimpleX-only changes, and the commits pointing a submodule at the next fork.
